@@ -3,8 +3,9 @@
     "id": 1,
     "name": "Python",
     "title":"The Complete Python Programming Courses.",
-    "description": "Python is a general-purpose, versatile, and powerful programming language. It’s a great first language because Python code is concise and easy to read. Whatever you want to do, python can do it. From web development to machine learning to data science, Python is the language for you.",
+    "description": "Python is a general-purpose, versatile, and powerful programming language. It’s a great first language because Python code is concise and easy to read. Whatever you want to do, python can do it. From web development to machine learning to data science, Python is the language for you.Python is a popular general purpose programming language used for both large and small-scale applications. With Python, you can discover how to bridge web development and data analytics.This specialization teaches the fundamentals of programming in Python 3. We will begin at the beginning, with variables, conditionals, and loops, and get to some intermediate material like keyword parameters, list comprehensions, lambda expressions, and class inheritance.You will have lots of opportunities to practice. You will also learn ways to reason about program execution, so that it is no longer mysterious and you are able to debug programs when they don’t work.By the end of the specialization, you’ll be writing programs that query Internet APIs for data and extract useful information from them.",
     "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/08/33f720502a11e59e72391aa537f5c9/pythonlearn_thumbnail_1x1.png?auto=format%2Ccompress&dpr=1",
+    "price": "$100",
     "rating": 4.1
    
     },
@@ -12,8 +13,10 @@
     "id": 2,
     "name": "Javascript",
     "title":"JavaScript for Web Designers",
-    "description": "JavaScript is the globally used client-side scripting language for the web. Most browsers support the language by default, so you can get started using JavaScript and HTML with a simple text editor and browser for testing.",
+    "description": "JavaScript is the globally used client-side scripting language for the web. Most browsers support the language by default, so you can get started using JavaScript and HTML with a simple text editor and browser for testing. Client-side, programming languages make web pages dynamic without making calls to your web servers for every button clicked, character typed, or mouse moved. The JavaScript language is so popular that thousands of developers have made customized libraries that make development even easier for other programmers and web designers. If you design web pages, you'll certainly need to know JavaScript to make a custom UI (user interface)",
 
+   
+    "price": "$120",
     "image": "https://cdn.mindmajix.com/courses/javascript-training-120620.png",
     "rating": 4.7
     
@@ -23,8 +26,8 @@
         "id": 3,
         "name": "React js.",
         "title":"The Complete React JS Course",
-        "description": "This course is a complete guide for React JS. Here, you will learn all the concepts required for becoming a front-end React JS developer. If you are new to web development or a professional developer who's creating websites with plain old javascript or jQuery, this is your time to learn React JS and take your web development skills to the next level and impress your recruiter or clients.",
-    
+        "description": "This course is a complete guide for React JS. Here, you will learn all the concepts required for becoming a front-end React JS developer. If you are new to web development or a professional developer who's creating websites with plain old javascript or jQuery, this is your time to learn React JS and take your web development skills to the next level and impress your recruiter or clients.It's is gaining rapid popularity. In a very short time, it has become the most widely accepted web development JavaScript library. This is the right time for you to learn and add React JS to your skillset and excel in your career.We cover what is React JS, how it uses JSX, how the compilation is done behind the scenes using babel to browser understandable plain old HTML, CSS, and javascript.After that, we explain 'components' which are the basic building blocks of a web page while working with React JS. We also cover the stateless and stateful components and when to use those components as well.",
+        "price": "$70",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFPcB41s3SB4ovrKdj54uM1MRjcHzlJMcexfDyDb2jJXwoCHfaNFw2OugpbH0QBukw_kY&usqp=CAU",
         "rating": 4.5
         
@@ -36,7 +39,7 @@
     "title": "Java for Beginners",
    
     "description": "Java is an object-oriented programming language. Sun Microsystems first released Java in the year 1995. It is popularly used for developing Java applications in data centers, laptops, cell phones, game consoles, and scientific supercomputers. There are multiple websites and applications which will not work if Java is not installed, and many more such applications and websites are being created every day. The class-based and general-purpose programming language is more reliable, fast, and secure. It was designed to reduce implementation dependencies. Read here all the details related to Java courses, scope in javascript, java syllabus, java certifications, and other related information.",
-    
+    "price": "$90",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbn_ZokWuxIdCSTWv5VkLk95fD4tH5CmfYg&usqp=CAU",
     "rating": 4.9
     
@@ -45,7 +48,8 @@
     "id": 5,
     "name": "Data Science",
     "title":"Courses to Learn Data Science",
-    "description": "Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization's data. These insights can be used to guide decision making and strategic planning.",
+    "description": "Learn Data Science online at your own pace. Start today and improve your skills.Data Science is the most-pursued field currently. It is essential to know the Data Science course syllabus before choosing the Data Science course or institute. Data Science uses a lot of tools, software, and algorithms to derive insights from vast amounts of data. Hence, the Data Science syllabus is designed in a way that students understand the various tools and techniques used in Data Science.The Data Science course content remains the same, no matter the type of Data Science program is online, classroom-based, or full-time regular degree. Therefore every Data Science course syllabus should include fundamental topics like introduction to Data Science, Statistics, Coding, Machine Learning, Artificial Intelligence, Mathematics, Data Mining, etc.",
+    "price": "$130",
     "image":"https://thumbs.dreamstime.com/b/data-science-deep-learning-artificial-intelligence-analysis-internet-modern-technology-concept-130068639.jpg",
     "rating": 3.4
     
@@ -53,8 +57,9 @@
     {
     "id": 6,
     "name": "Software Testing",
-    "title":"Introduction to Software Testing",
-    "description": "Software Testing is a method to check whether the actual software product matches expected requirements and to ensure that software product is Defect free. It involves execution of software/system components using manual or automated tools to evaluate one or more properties of interest. The purpose of software testing is to identify errors, gaps or missing requirements in contrast to actual requirements.",
+    "title":"Learn Data Science",
+    "description":"This software testing course is the perfect opportunity for all those who are looking for Software Testing (basics + advanced) training. If you are new to the IT field, want to increase your software testing knowledge, and want to pursue a career in Testing or if you want to make a career move from a different technology, this course is just for you. See course details below.In this course, we will teach you the most practical things required for you to get and survive a software testing job.If you are a just college pass out, this is EXACTLY what you are looking for to open the doors for your dream career.If you are an experienced professional from ANY other field but wanted to be in IT, this course will help you make this switch smoothly.If you are an experienced testing professional, you will be amazed at the new things and advanced tactics you will learn to work efficiently and smartly in this field.",
+    "price": "$110",
     "image": "https://mindqsystems.com/wp-content/uploads/2020/02/software-testing-course.jpg",
     "rating": 4.2
     
