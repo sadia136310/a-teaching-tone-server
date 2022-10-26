@@ -1,0 +1,26 @@
+[
+    {
+      "id": "01",
+      "name": "Python"
+    },
+    {
+      "id": "02",
+      "name": "Javascript"
+    },
+    {
+      "id": "03",
+      "name": "React js"
+    },
+    {
+      "id": "04",
+      "name": "Java"
+    },
+    {
+      "id": "05",
+      "name": "Data Science"
+    },
+    {
+      "id": "06",
+      "name": "Software Testing"
+    }
+  ]

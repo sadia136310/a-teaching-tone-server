@@ -7,24 +7,37 @@ app.use(cors());
 const Port =process.env.Port||5000;
 
 
-const courses=require('./data/data.json');
+const course=require('./data/data.json');
+const categories=require('./data/categories.json');
 
 app.get('/',(req,res)=>{
-res.send("Now teaching is running");
+res.send("Now teaching-tone-server is running");
+});
+
+
+app.get('/course-categories',(req,res)=>{
+    res.send(categories);
+});
+
+app.get('/course-categories/:id',(req,res)=>{
+const id = req.params.id;
+const CategoryCourse=course.filter(c=>c.id===id);
+// console.log(id,CategoryCourse);
+res.send(CategoryCourse);
+
 });
 
 app.get('/course',(req,res)=>{
-    res.send(courses);
+    res.send(course);
 });
-
 app.get('/course/:id',(req,res)=>{
 const id = parseInt(req.params.id);
-const selectedCourses=courses.find(c=>c.id===id);
+const selectedCourses=course.find(c=>c.id===id);
 console.log(id,selectedCourses);
 res.send(selectedCourses);
 
 });
 
 app.listen(Port,()=>{
-    console.log("teaching is running", Port);
+    console.log("teaching-tone is running", Port);
 });
