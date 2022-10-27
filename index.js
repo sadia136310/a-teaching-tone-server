@@ -38,6 +38,15 @@ res.send(selectedCourses);
 
 });
 
+
+app.get('/check/:id',(req,res)=>{
+const id = parseInt(req.params.id);
+const selectedCourses=course.find(c=>c.id===id);
+console.log(id,selectedCourses);
+res.send(selectedCourses);
+
+});
+
 app.listen(Port,()=>{
     console.log("teaching-tone is running", Port);
 });
