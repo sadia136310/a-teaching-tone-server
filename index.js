@@ -12,7 +12,7 @@ const course=require('./data/data.json');
 const categories=require('./data/categories.json');
 
 app.get('/',(req,res)=>{
-res.send("Now the teaching-tone-server is running");
+res.send("Now teaching-tone-server is running");
 });
 
 
